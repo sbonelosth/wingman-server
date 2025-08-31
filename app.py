@@ -47,7 +47,12 @@ def analyze():
                 3. Starts with a title like: "Application for <jobTitle>".
                 4. Is tailored to the job description and highlights the candidate's relevant skills and experience.
         - If "decision" = "No" or score < 60, set "coverLetter" to an empty string "".
-        - If "decision" = "Yes", provide "resumeEnhancements" with **specific, actionable** suggestions to make the resume ATS-friendly and improve chances of selection.
+        - If "decision" = "Yes", generate "resumeEnhancements" with clear, specific, and actionable suggestions to make the resume a perfect match for the job description.
+            - Highlight missing or weak skills, keywords, tools, certifications, and responsibilities from the job description.
+            - Suggest clear edits: add, rewrite, or reorder resume bullet points to match the role.
+            - Recommend metrics only when directly tied to listed experiences.
+            - Avoid generic tips; link every suggestion to actual resume content.
+            - Keep advice specific and contextual to the provided resume and job description.
         - Always speak directly to the user (e.g., "You have strong experience..." not "The candidate has...").
 
         Respond **only** in the following JSON format with no extra text, markdown, or explanations:
