@@ -62,7 +62,8 @@ def analyze():
             "reason": "<one-sentence reason>",
             "score": <integer from 0 to 100>,
             "coverLetter": "<cover letter text or empty string>",
-            "resumeEnhancements": "<ATS-friendly resume suggestions>"
+            "resumeEnhancements": "<specific resume suggestions to improve ATS match or empty string>",
+            "jobSummary": "<brief summary of the job description including key skills and requirements>"
         }}
 
         Job Title:
